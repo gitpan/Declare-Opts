@@ -1,0 +1,60 @@
+{
+   "abstract" : "Simple and Sane Command Line Argument processing",
+   "author" : [
+      "Chad Granum <exodist7@gmail.com>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "Module::Build version 0.4003, CPAN::Meta::Converter version 2.110440",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Declare-Opts",
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Fennec" : "1.012"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.40"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Exporter::Declare" : "0.105"
+         }
+      }
+   },
+   "provides" : {
+      "Declare::Args" : {
+         "file" : "lib/Declare/Args.pm",
+         "version" : "0.002"
+      },
+      "Declare::CLI" : {
+         "file" : "lib/Declare/CLI.pm",
+         "version" : "0.001"
+      },
+      "Declare::Opts" : {
+         "file" : "lib/Declare/Opts.pm",
+         "version" : "0.001"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "http://github.com/exodist/Declare-Opts"
+      },
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ],
+      "repository" : {
+         "url" : "http://github.com/exodist/Declare-Opts"
+      }
+   },
+   "version" : "0.001"
+}
